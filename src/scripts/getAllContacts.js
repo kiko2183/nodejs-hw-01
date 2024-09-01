@@ -19,3 +19,4 @@ export const getAllContacts = async () => {
     return [];
   }
 };
+console.log(await getAllContacts());
